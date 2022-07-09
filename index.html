@@ -4,9 +4,212 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <!-- BoxIcons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <title>Delivery I</title>
 </head>
 <body>
-    
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">Delivery I</a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contáctanos</a>
+                    </li>
+
+                    <i class='bx bx-toggle-left change-theme' id="theme-button"></i>
+                </ul>
+            </div>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+
+            <a href="#" class="button button-header">Ordena Ahora</a>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <main class="main">
+        <section class="home" id="home">
+            <div class="home-container container grid">
+                <img class="svg-img svg-color home-img" src="/assets/img/delivery-in-coming.svg" alt="">
+                <div class="home-data">
+                    <h1 class="home-title">Ordena Productos <br> Fácil Y Rápido</h1>
+                    <p class="home-description">Ordena tus productos favoritos en cualquier momento.</p>
+                    <a class="button" href="#">Empezar Ahora</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about section container" id="about">
+            <div class="about-container grid">
+                <div class="about-data">
+                    <h2 class="section-title-center">Descubra Un Poco Más <br> Quiénes Somos</h2>
+                    <p class="about-description">
+                        Somos una empresa dedicada a la distribución de productos por delivery hasta tu domicilio o hasta el lugar donde te
+                        encuentres, con la mejor calidad de entrega.
+                    </p>
+                </div>
+                <img class="svg-img svg-color about-img" src="/assets/img/product-received.svg" alt="">
+            </div>
+        </section>
+
+        <!-- Security -->
+        <section class="security section container">
+            <div class="security-container grid">
+                <div class="security-data">
+                    <h2 class="section-title-center">Su Seguridad Es <br> Importante</h2>
+                    <p class="security-description">
+                        Cuando te llega tu pedido, contamos con los protocolos de seguridad sanitaria, para que estés protegido de cualquier
+                        enfermedad.
+                    </p>
+                </div>
+                <img class="svg-img svg-color" src="/assets/img/covid.svg" alt="">
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="services section container" id="services">
+            <h2 class="section-title">Algunos Servicios Que Ofrecemos</h2>
+            <div class="services-container grid">
+                <div class="services-data">
+                    <h3 class="services-subtitle">Pagos</h3>
+                    <img class="svg-color services-img" src="/assets/img/credit-card.svg" alt="">
+                    <p class="services-description">Pagos con VISA o PayPal.</p>
+                    <div>
+                        <a class="button button-link" href="#">Aprender Más</a>
+                    </div>
+                </div>
+                <div class="services-data">
+                    <h3 class="services-subtitle">Encuentra Tu Producto</h3>
+                    <img class="svg-color services-img" src="/assets/img/payment-succesful.svg" alt="">
+                    <p class="services-description">Ofrecemos venta de productos a través de internet.</p>
+                    <div>
+                        <a class="button button-link" href="#">Aprender Más</a>
+                    </div>
+                </div>
+                <div class="services-data">
+                    <h3 class="services-subtitle">Recibe Tu Producto</h3>
+                    <img class="svg-color services-img" src="/assets/img/order-app.svg" alt="">
+                    <p class="services-description">En nuestra app puedes ver el tiempo de demora de tu pedido.</p>
+                    <div>
+                        <a class="button button-link" href="#">Aprender Más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- App -->
+        <section class="app section container">
+            <div class="app-container grid">
+                <div class="app-data">
+                    <h2 class="section-title-center">Mire Su Entrega <br> En Cualquier Momento</h2>
+                    <p class="app-description">Con nuestra app podrás visualizar el recorrido de tu pedido, desde nuestra sede local hasta el
+                        lugar donde estas. Busca la aplicación ahora</p>
+                    <div class="app-buttons">
+                        <a href="#" class="button button-flex">
+                            <i class='bx bxl-apple button-icon'></i> App Store
+                        </a>
+                        <a href="#" class="button button-flex">
+                            <i class='bx bxl-play-store button-icon' ></i> Google Play
+                        </a>
+                    </div>
+                </div>
+                <img class="svg-img svg-color app-img" src="/assets/img/ubication-order.svg" alt="">
+            </div>
+        </section>
+
+        <!-- Contact Us -->
+        <section class="contact section container" id="contact">
+            <div class="contact-container grid">
+                <div class="contact-content">
+                    <h2 class="section-title-center">Contáctanos Desde <br> Aquí</h2>
+                    <p class="contact-description">
+                        Puedes contactarnos desde aquí, puedes escribirnos, llámanos o visita nuestro centro de servicio, con gusto te
+                        atenderemos.
+                    </p>
+                </div>
+                <ul class="contact-content grid">
+                    <li class="contact-address">Télefono: <span class="contact__information">961 123 4567</span></li>
+                    <li class="contact-address">Email: <span class="contact__information">deliveryi@email.com</span></li>
+                    <li class="contact-address">Localización: <span class="contact__information">Chiapas - México</span></li>
+                </ul>
+                <div class="contact-content">
+                    <a href="#" class="button">Contáctanos</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="footer-container container grid">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">Delivery I</a>
+                <p class="footer-description">Order Products Faster <br> Easier</p>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Nuestros Servicios</h3>
+                <ul class="footer-links">
+                    <li><a href="#" class="footer-link">Precios</a></li>
+                    <li><a href="#" class="footer-link">Descuentos</a></li>
+                    <li><a href="#" class="footer-link">Reportar Un Bug</a></li>
+                    <li><a href="#" class="footer-link">Términos De Servicio</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Nuestra Compañía</h3>
+                <ul class="footer-links">
+                    <li><a href="#" class="footer-link">Blog</a></li>
+                    <li><a href="#" class="footer-link">Nuestra Misión/a></li>
+                    <li><a href="#" class="footer-link">Ponerse En Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Comunidad</h3>
+                <ul class="footer-links">
+                    <li><a href="#" class="footer-link">Soporte</a></li>
+                    <li><a href="#" class="footer-link">Preguntas</a></li>
+                    <li><a href="#" class="footer-link">Ayuda Al Cliente</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <a href="#" class="footer-social-link"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#" class="footer-social-link"><i class='bx bxl-twitter'></i></a>
+                <a href="#" class="footer-social-link"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+        </div>
+
+        <p class="footer-copy">Developed By Irving Martínez</p>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup-icon'></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="/assets/js/app.js"></script>
 </body>
 </html>
